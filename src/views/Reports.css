@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .grid-chart * {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }

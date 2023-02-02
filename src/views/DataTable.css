@@ -1,0 +1,30 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+th {
+    height: 70px;
+    font-size: large;
+    color: white;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    color: white;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+h1 {
+    padding: 1%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
